@@ -1,0 +1,29 @@
+# quickpack-validation error_messages  
+ja:
+
+  errors: &errors
+    format: ! '%{attribute}%{message}'
+    messages:
+      hiragana_check: 'はひらがなで入力してください。'
+      katakana_check: 'は全角カタカナで入力してください。'
+      hankana_check: 'は半角カタカナで入力してください。'
+      alpha_check: 'は半角英字で入力してください。'
+      alpha_or_numeric_check: 'は半角英数字で入力してください。'
+      array_length_check: 'が不正です。'
+      byte_size_check: 'は半角%{maximum}文字で入力してください。'
+      safety_html_check: "は不正な文字を含んでいます。使用できない文字列は「%{ng_pattern}」です。"
+      password_check: "%{error_msg}"
+      date_check: 'は、日付が不正です。'
+      decimal_range_check1: 'は半角数字で入力してください。'
+      decimal_range_check2: 'は範囲が不正です。'
+      decimal_numeric_check: 'は半角数字で入力してください。'
+      url_check: 'はURLとして不正です。'
+      character_check: "は不正な文字を含んでいます。使用できない文字列は「%{error_word}」です。"
+      character_code_range_check: "は不正な文字を含んでいます。使用できない文字列は「%{error_word}」です。"
+      email_check: 'はメールアドレスとして不正です。'
+      num_check: 'は半角数字で入力してください。'
+      file_extension_check: "の拡張子が不正です。使用できる拡張子は「%{extensions}」です。"
+      file_size_limit_check: "のファイル容量が大きすぎます。受付可能なファイルサイズは「%{limit_size}byte」までです。"
+      flag_check: 'は%{flag}のどれかで入力してください。'
+      byte_check: 'は%{maximum}バイト以内で入力してください。'
+      regformat_check: 'は値が不正です。'
